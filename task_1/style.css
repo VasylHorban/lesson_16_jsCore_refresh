@@ -1,0 +1,9 @@
+.ball{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+/*    transition:  ease .3s;*/
+}
