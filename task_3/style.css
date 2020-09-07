@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
 }
 .bg-dark{
     position: absolute;
@@ -12,7 +11,7 @@
     background: rgba(255, 255, 255, 0.65);
     
 }
-.bg-cobntainer{
+.bg-container{
     border: 1px solid black;
     margin: 50px auto;
     height: 180px;

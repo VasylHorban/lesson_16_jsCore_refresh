@@ -2,7 +2,8 @@ $(document).ready(function () {
     let oldLeft;
     $('.bg-elem').on('click', function () {
         if ($(this).attr('data-on') === 'true') {
-            let left = Math.round((parseInt(oldLeft)/parseInt($('.bg-cobntainer').css('width')))*100 , 1)
+            console.log(((parseInt(oldLeft)/parseInt($('.bg-container').css('width')))*100))
+            let left = (parseInt(oldLeft)/parseInt($('.bg-container').css('width'))*100).toFixed(3)
             console.log(left)
             $(this).animate({
                 left: left + '%',
